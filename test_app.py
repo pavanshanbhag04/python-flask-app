@@ -1,4 +1,3 @@
-cat > test_app.py << 'EOF'
 import unittest
 from app import app
 
@@ -12,4 +11,3 @@ class TestApp(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-EOF
